@@ -1,0 +1,2 @@
+"use strict";let burgerMenu=document.querySelector(".header__burger-menu"),headerLanguage=document.querySelector(".header__language"),menu=document.querySelector(".header__hidden-view"),body=document.body;burgerMenu.addEventListener("click",()=>{menu.classList.toggle("header__hidden-view--active"),body.classList.toggle("no-scroll"),burgerMenu.classList.toggle("header__burger-menu--active"),headerLanguage.classList.toggle("header__language--active")});
+//# sourceMappingURL=museum2.2aa2ddfc.js.map
